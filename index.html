@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Widget Dashboard</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Widget Dashboard<span><button onclick="show()">+ Add Widget</button></span></h1>
+    <div id="formfilling">
+          <ol>
+                <li><input name="qname"/><input name="quantity"/></li>
+                <li><input name="qname"/><input name="quantity"/></li>
+          </ol>
+          <button onclick="removerow()">Remove Row</button>
+          <button onclick="addrow()">Add Row</button>
+          <button onclick="hide()">Cancel</button>
+          <button onclick="generatewidget()">Submit</button>
+      </div>
+      <div class="dashboard" id="dashboard"></div>
+      <script type="text/javascript" src="hello.js"></script>
+</body>
+</html>
